@@ -27,7 +27,11 @@ This is especially useful when you need to search through `node_modules`, build 
 
 ## Extension Settings
 
-This extension doesn't add any new settings. It simply toggles the built-in VS Code setting:
+This extension contributes the following settings:
+
+- `toggleIgnoreFiles.toggleGlobally`: When enabled, the toggle command will update global (user) settings instead of workspace settings. Default: `false`
+
+The extension toggles these built-in VS Code settings:
 
 - `search.useIgnoreFiles`: When enabled, search will respect `.gitignore` files
 

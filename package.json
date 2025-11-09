@@ -29,7 +29,17 @@
         "command": "search-toggle-ignore-files.toggle",
         "title": "Toggle Search: Use Ignore Files"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Search Toggle Ignore Files",
+      "properties": {
+        "toggleIgnoreFiles.toggleGlobally": {
+          "type": "boolean",
+          "default": false,
+          "description": "When enabled, the toggle command will update the global (user) settings instead of workspace settings"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "pnpm run package",
