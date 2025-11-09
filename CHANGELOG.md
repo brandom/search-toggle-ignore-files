@@ -2,8 +2,11 @@
 
 All notable changes to the "search-toggle-ignore-files" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.1] - 2025-11-09
 
-## [Unreleased]
+### Added
 
 - Initial release
+- Command to toggle `search.useIgnoreFiles` setting
+- Visual confirmation message when toggling
+- Workspace-level configuration updates
