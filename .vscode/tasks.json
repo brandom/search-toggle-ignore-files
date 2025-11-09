@@ -4,8 +4,17 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
+			"label": "Ensure test file",
+			"type": "shell",
+			"command": "touch test-workspace/testfile",
+			"presentation": {
+				"reveal": "never"
+			}
+		},
+		{
             "label": "watch",
             "dependsOn": [
+				"Ensure test file",
                 "npm: watch:tsc",
                 "npm: watch:esbuild"
             ],
