@@ -35,15 +35,6 @@ The extension toggles these built-in VS Code settings:
 
 - `search.useIgnoreFiles`: When enabled, search will respect `.gitignore` files
 
-## Release Notes
-
-### 0.0.1
-
-Initial release
-
-- Toggle `search.useIgnoreFiles` setting
-- Visual confirmation when toggling
-
 ## License
 
 MIT

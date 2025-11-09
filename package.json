@@ -2,7 +2,7 @@
   "name": "search-toggle-ignore-files",
   "displayName": "Search Toggle Ignore Files",
   "description": "Quickly toggle the Search: Use Ignore Files setting to show or hide gitignored files in search results",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "brandon-vannoy",
   "engines": {
     "vscode": "^1.105.0"

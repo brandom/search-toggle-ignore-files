@@ -5,12 +5,12 @@ suite('Toggle Search Ignore Files Extension Test Suite', () => {
 	vscode.window.showInformationMessage('Start all tests.');
 
 	test('Extension should be present', () => {
-		assert.ok(vscode.extensions.getExtension('undefined_publisher.search-toggle-ignore-files'));
+		assert.ok(vscode.extensions.getExtension('brandon-vannoy.search-toggle-ignore-files'));
 	});
 
 	test('Command should be registered', async () => {
 		// Activate the extension first
-		const ext = vscode.extensions.getExtension('undefined_publisher.search-toggle-ignore-files');
+		const ext = vscode.extensions.getExtension('brandon-vannoy.search-toggle-ignore-files');
 		if (ext && !ext.isActive) {
 			await ext.activate();
 		}
@@ -21,7 +21,7 @@ suite('Toggle Search Ignore Files Extension Test Suite', () => {
 
 	test('Toggle command should change search.useIgnoreFiles setting', async () => {
 		// Activate the extension first
-		const ext = vscode.extensions.getExtension('undefined_publisher.search-toggle-ignore-files');
+		const ext = vscode.extensions.getExtension('brandon-vannoy.search-toggle-ignore-files');
 		if (ext && !ext.isActive) {
 			await ext.activate();
 		}
@@ -52,7 +52,7 @@ suite('Toggle Search Ignore Files Extension Test Suite', () => {
 
 	test('Toggle command should flip between true and false', async () => {
 		// Activate the extension first
-		const ext = vscode.extensions.getExtension('undefined_publisher.search-toggle-ignore-files');
+		const ext = vscode.extensions.getExtension('brandon-vannoy.search-toggle-ignore-files');
 		if (ext && !ext.isActive) {
 			await ext.activate();
 		}
